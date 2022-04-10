@@ -16,9 +16,12 @@ You can find the application deployed to github pages [here](https://github.com/
 
 - HTML
 - CSS
+  - Media queries
+  - Flexbox
+  - Variables
 - GitHub Pages
 - FontAwesome
-- ...more
+- Google Fonts
 
 ## Screenshots
 
