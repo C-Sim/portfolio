@@ -24,11 +24,11 @@ You can find the application deployed to github pages [here](https://github.com/
 
 ### Desktop Viewports
 
-![spiderman](./assets/images/img1.jpg)
+![portfolio-desktop](./assets/images/img1.jpg)
 
 ### Mobile Viewports
 
-![spiderman](./assets/images/img1.jpg)
+![portfolio-mobile](./assets/images/img1.jpg)
 
 ## About Me
 

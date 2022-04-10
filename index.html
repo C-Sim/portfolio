@@ -4,6 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./assets/css/styles.css" />
     <title>Cherelle Simpson: Portfolio</title>
   </head>
@@ -11,18 +24,24 @@
   <body>
     <!-- nav containing photo, name and 3 links to content -->
     <header>
-      <nav class="navbar">
+      <nav class="navbar-container">
         <img
           id="imgCS"
-          src="./assets/images/CS.jpeg"
+          src="./assets/images/CS.jpg"
           alt="Photo of Cherelle Simpson"
         />
-        <figcaption id="name">Cherelle Simpson</figcaption>
-        <ul class="navitems">
-          <li class="navitem" href=".aboutme-container">About Me</li>
-          <li class="navitem" href=".portfolio-container">Portfolio</li>
-          <li class="navitem" href=".contact-container">Contact</li>
-        </ul>
+        <h1 id="name">Cherelle Simpson</h1>
+        <div class="nav-link-container">
+          <div class="nav-links">
+            <a class="nav-link" href=".aboutme-container">About Me</a>
+          </div>
+          <div class="nav-links">
+            <a class="nav-link" href=".portfolio-container">Portfolio</a>
+          </div>
+          <div class="nav-links">
+            <a class="nav-link" href=".contact-container">Contact</a>
+          </div>
+        </div>
       </nav>
     </header>
 
