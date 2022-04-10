@@ -33,13 +33,13 @@
         <h1 id="name">Cherelle Simpson</h1>
         <div class="nav-link-container">
           <div class="nav-links">
-            <a class="nav-link" href=".aboutme-container">About Me</a>
+            <a class="nav-link" href="#aboutme-container">About Me</a>
           </div>
           <div class="nav-links">
-            <a class="nav-link" href=".portfolio-container">Portfolio</a>
+            <a class="nav-link" href="#portfolio-container">Portfolio</a>
           </div>
           <div class="nav-links">
-            <a class="nav-link" href=".contact-container">Contact</a>
+            <a class="nav-link" href="#contact-container">Contact</a>
           </div>
         </div>
       </nav>
@@ -47,22 +47,30 @@
 
     <!-- hero background image -->
     <div id="hero" title="Kinkakuji, Kyoto, Japan">
-      <figcaption class="herocaption">
-        Photo taken on my travels in Kyoto, Japan &copy; Cherelle Simpson;
+      <figcaption id="herocaption">
+        Photo taken on my travels in Kyoto, Japan<br />&copy; Cherelle Simpson
       </figcaption>
     </div>
 
     <main>
       <!-- first section containing 'about me' -->
-      <section class="aboutme-container">
-        <aside class="aboutme-title">About Me</aside>
-        <p class="aboutme">
-          <a id="cv"></a>
-        </p>
-      </section>
+      <div id="aboutme-container">
+        <h2 class="section-title" id="aboutme-title">About Me</h2>
+        <div class="aboutme-content">
+          <div class="aboutme">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+              soluta tempore vitae dolore harum, beatae doloribus quidem,
+              consequuntur quaerat neque molestias inventore voluptates ad
+              magnam atque maiores sint id alias. You can find a copy of my CV
+              <a href="assets/files/CV Cherelle Simpson.pdf" id="cv">here</a>
+            </p>
+          </div>
+        </div>
+      </div>
       <!-- second section containing app image, title, tech and link -->
-      <section class="portfolio-container">
-        <aside class="portfolio-title">Portfolio</aside>
+      <section id="portfolio-container">
+        <h2 class="section-title" id="portfolio-title">Portfolio</h2>
         <img class="portfolio-main" src="" alt="" />
         <figcaption class="portfolio-name"></figcaption>
         <img class="portfolio" src="" alt="" />
@@ -87,14 +95,14 @@
 
       <section>
         <!-- third section containing links to contact details, GitHub and social media -->
-        <aside class="contact-container"></aside>
-        <ul class="contacts">
-          <li class="contact" id="email"></li>
-          <li class="contact" id="mobile"></li>
-          <li class="contact" id="github"></li>
-          <li class="contact" id="linkedin"></li>
-          <li class="contact" id="instagram"></li>
-        </ul>
+        <h2 class="section-title" id="contact-title">Contacts</h2>
+        <div class="section-title" id="contact-container">
+          <div class="contact" id="email">eMail</div>
+          <div class="contact" id="github">GitHub</div>
+          <div class="contact" id="mobile">Telephone</div>
+          <div class="contact" id="linkedin">LinkedIn</div>
+          <div class="contact" id="instagram">Instagram</div>
+        </div>
       </section>
     </main>
   </body>

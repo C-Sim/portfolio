@@ -13,6 +13,7 @@
 
 body {
   margin: 0px;
+  background-color: var(--cadet-blue);
 }
 
 /* responsive navbar */
@@ -57,10 +58,60 @@ body {
   font-weight: 400;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+#cv:hover {
   color: var(--orange-red-crayola);
   cursor: pointer;
 }
+
+#hero {
+  height: 400px;
+  width: 100%;
+  background-image: url("assets/images/Kinkakuji.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#herocaption {
+  color: var(--beige);
+  position: relative;
+  top: 90%;
+  right: 2%;
+  text-align: right;
+  font-size: 12px;
+}
+
+.section-title {
+  display: inline-block;
+  color: var(--beige);
+  font-size: 18px;
+  font-weight: 400;
+  margin: 18px;
+  width: 10%;
+}
+#aboutme-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.aboutme-content {
+  display: inline-block;
+  color: var(--deep-space-sparkle);
+  width: 80%;
+  border-left: 8px solid var(--deep-space-sparkle);
+  padding: 4px 8px;
+}
+
+#cv {
+  text-decoration: none;
+  color: var(--beige);
+}
+
+#cv:hover (
+
+)
 
 /* mobile viewport styles */
 @media screen and (max-width: 576px) {
