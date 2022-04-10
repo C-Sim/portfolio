@@ -82,26 +82,24 @@ body {
 }
 
 .section-title {
-  display: inline-block;
   color: var(--beige);
   font-size: 18px;
   font-weight: 400;
   margin: 18px;
-  width: 10%;
+  width: 15%;
 }
-#aboutme-container {
-  position: relative;
+
+.aboutme-container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  margin: 18px;
 }
 
 .aboutme-content {
-  display: inline-block;
   color: var(--deep-space-sparkle);
-  width: 80%;
   border-left: 8px solid var(--deep-space-sparkle);
   padding: 4px 8px;
+  width: 80%;
 }
 
 #cv {
@@ -109,9 +107,43 @@ body {
   color: var(--beige);
 }
 
-#cv:hover (
+.portfolio-container {
+  display: flex;
+  flex-direction: row;
+  margin: 18px;
+}
 
-)
+.portfolio-main {
+  border-left: 8px solid var(--deep-space-sparkle);
+  padding: 4px 8px;
+  width: 80%;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  margin: 18px;
+}
+
+.contacts {
+  border-left: 8px solid var(--deep-space-sparkle);
+  padding: 8px 8px;
+  width: 80%;
+}
+
+.contacts i {
+  font-size: 48px;
+  margin-left: 48px;
+  position: relative;
+  left: 10%;
+}
+
+.footer {
+  background-color: var(--deep-space-sparkle);
+  color: var(--cadet-blue);
+  text-align: center;
+  padding: 8px;
+}
 
 /* mobile viewport styles */
 @media screen and (max-width: 576px) {
