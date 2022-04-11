@@ -72,20 +72,20 @@ body {
 
 /* hero image */
 #hero {
-  height: 400px;
-  width: 100%;
-  background-image: url("assets/images/Kinkakuji.jpg");
-  background-size: cover;
-  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../images/Kinkakuji.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   position: relative;
-  top: auto;
+  margin-top: 18%;
 }
 
 #herocaption {
   color: var(--beige);
   position: relative;
-  top: 90%;
-  right: 2%;
+  top: 95%;
+  right: 24px;
   text-align: right;
   font-size: 12px;
 }
@@ -123,9 +123,24 @@ body {
 
 /* portfolio section*/
 .portfolio-main {
+}
+
+.portfolio-img1 {
   border-left: 8px solid var(--deep-space-sparkle);
   padding: 4px 8px;
   width: 80%;
+  height: 400px;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.portfolio-name {
+  background-color: var(--cadet-blue);
+  color: var(--deep-space-sparkle);
+  padding: 4px;
+  position: relative;
+  left: 10%;
+  bottom: 10%;
 }
 
 /* contact section */
@@ -155,6 +170,11 @@ body {
   .nav-link-container {
     flex-direction: column;
     align-items: center;
+  }
+
+  /* hero image */
+  #hero {
+    margin-top: 48%;
   }
 
   /* section containers */
