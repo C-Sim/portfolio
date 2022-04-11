@@ -1,7 +1,7 @@
 /* color palette */
 :root {
   --powder-blue: #b8d8d8ff;
-  --cadet-blue: #7a9e9fff;
+  --cadet-blue: #a0a0a0;
   --deep-space-sparkle: #4f6367ff;
   --beige: #eef5dbff;
   --orange-red-crayola: #fe5f55ff;
@@ -23,6 +23,7 @@ body {
 .navbar-container {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   background-color: var(--deep-space-sparkle);
   position: fixed;
@@ -51,6 +52,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: right;
+  flex-wrap: wrap;
 }
 
 .nav-links {
@@ -95,8 +97,11 @@ body {
   color: var(--beige);
   font-size: 18px;
   font-weight: 400;
-  margin: 18px;
-  width: 15%;
+  text-align: right;
+  padding: 12px;
+
+  width: 18%;
+  border-right: 8px solid var(--deep-space-sparkle);
 }
 
 /* responsive section containers */
@@ -111,7 +116,6 @@ body {
 /* about me section*/
 .aboutme-content {
   color: var(--deep-space-sparkle);
-  border-left: 8px solid var(--deep-space-sparkle);
   padding: 4px 8px;
   width: 80%;
 }
@@ -123,29 +127,36 @@ body {
 
 /* portfolio section*/
 .portfolio-main {
+  margin: auto;
+  width: 80%;
+  height: 10%;
+  padding: 18px 0px;
 }
 
 .portfolio-img1 {
-  border-left: 8px solid var(--deep-space-sparkle);
-  padding: 4px 8px;
-  width: 80%;
-  height: 400px;
+  width: 100%;
+  height: 150px;
+  padding: 0px;
   object-fit: cover;
   object-position: center top;
+  border: 4px solid var(--deep-space-sparkle);
 }
 
 .portfolio-name {
-  background-color: var(--cadet-blue);
-  color: var(--deep-space-sparkle);
-  padding: 4px;
-  position: relative;
-  left: 10%;
-  bottom: 10%;
+  background-color: var(--deep-space-sparkle);
+  color: var(--beige);
+  padding: 1px;
+  margin: 0px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.portfolio-name p {
+  color: var(--orange-red-crayola);
 }
 
 /* contact section */
 .contacts {
-  border-left: 8px solid var(--deep-space-sparkle);
   padding: 8px 8px;
   width: 80%;
 }
@@ -191,13 +202,13 @@ body {
     font-size: 15px;
     width: 80%;
     text-align: center;
+    border-right: none;
   }
 
   /* section content */
   .aboutme-content,
   .portfolio-main,
   .contacts {
-    border-left: none;
     font-size: 12px;
     padding: 0px;
   }
