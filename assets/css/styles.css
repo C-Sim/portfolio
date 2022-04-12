@@ -98,8 +98,7 @@ body {
   font-size: 18px;
   font-weight: 400;
   text-align: right;
-  padding: 12px;
-
+  padding: 4px 12px;
   width: 18%;
   border-right: 8px solid var(--deep-space-sparkle);
 }
@@ -120,12 +119,21 @@ body {
   width: 80%;
 }
 
+.aboutme li {
+  list-style-type: none;
+}
+
+.aboutme li strong {
+  color: var(--orange-red-crayola);
+}
+
 #cv {
   text-decoration: none;
   color: var(--beige);
 }
 
 /* portfolio section*/
+/* main image */
 .portfolio-main {
   margin: auto;
   width: 80%;
@@ -142,6 +150,7 @@ body {
   border: 4px solid var(--deep-space-sparkle);
 }
 
+/* titles */
 .portfolio-name {
   background-color: var(--deep-space-sparkle);
   color: var(--beige);
@@ -151,19 +160,46 @@ body {
   text-align: center;
 }
 
+.portfolio-name h3 {
+  margin: 4px;
+}
+
 .portfolio-name p {
   color: var(--orange-red-crayola);
+  margin: 4px;
+}
+
+.portfolio-name i {
+  font-size: 18px;
+  color: var(--cadet-blue);
+}
+
+/* secondary images */
+.sub-images {
+  margin: auto;
+  width: 80%;
+  height: 10%;
+  padding: 18px 0px;
+}
+
+.portfolio-img2 {
+  width: 50%;
+  height: 150px;
+  padding: 0px;
+  object-fit: cover;
+  object-position: center top;
+  border: 4px solid var(--deep-space-sparkle);
 }
 
 /* contact section */
 .contacts {
-  padding: 8px 8px;
+  padding: 18px;
   width: 80%;
 }
 
 .contacts i {
   font-size: 32px;
-  margin: 4px 18px;
+  margin: 0px 18px;
 }
 
 /* footer */
@@ -201,6 +237,7 @@ body {
   .section-title {
     font-size: 15px;
     width: 80%;
+    padding: 0px;
     text-align: center;
     border-right: none;
   }
