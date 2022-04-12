@@ -193,15 +193,22 @@ body {
   border: 8px solid var(--deep-space-sparkle);
 }
 
+.portfolio-img2:hover {
+  transform: scale(1.2, 1.2);
+}
+
 /* contact section */
 .contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   padding: 18px;
   width: 80%;
 }
 
 .contacts i {
   font-size: 32px;
-  margin: 0px 18px;
+  margin: 0px auto;
 }
 
 /* footer */
