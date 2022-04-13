@@ -112,7 +112,7 @@ body {
   margin: 18px;
 }
 
-.projects {
+.portfolio-flex-container {
   display: flex;
   flex-direction: column;
 }
