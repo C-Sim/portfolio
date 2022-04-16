@@ -6,9 +6,7 @@ Personal portfolio of projects completed using a range of technologies
 
 A portfolio of my projects using my skills across a range of front end and back end coding languages and tools.
 
-## Deployed URL
-
-[Deployed GitHub URL](https://github.com/surajverma2587)
+[Deployed GitHub URL](https://c-sim.github.io/portfolio/)
 
 ## Technologies
 
@@ -26,11 +24,11 @@ A portfolio of my projects using my skills across a range of front end and back 
 
 ### Desktop Viewports
 
-![portfolio-desktop](./assets/images/img1.jpg)
+![portfolio-desktop](./assets/images/portfolio_desktop.png)
 
 ### Mobile Viewports
 
-![portfolio-mobile](./assets/images/img1.jpg)
+![portfolio-mobile](./assets/images/portfolio_mobile.png)
 
 ## About Me
 
