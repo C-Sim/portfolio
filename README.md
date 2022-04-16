@@ -2,15 +2,13 @@
 
 Personal portfolio of projects completed using a range of technologies
 
-# YOUR TITLE
+## Description
 
-## DESCRIPTION
-
-TODO
+A portfolio of my projects using my skills across a range of front end and back end coding languages and tools.
 
 ## Deployed URL
 
-You can find the application deployed to github pages [here](https://github.com/surajverma2587)
+[Deployed GitHub URL](https://github.com/surajverma2587)
 
 ## Technologies
 
@@ -22,6 +20,7 @@ You can find the application deployed to github pages [here](https://github.com/
 - GitHub Pages
 - FontAwesome
 - Google Fonts
+- Coolors
 
 ## Screenshots
 
@@ -35,4 +34,7 @@ You can find the application deployed to github pages [here](https://github.com/
 
 ## About Me
 
-You can add your email, stuff about yourself...
+- 👋 Hi, I’m @C-Sim
+- 👀 I’m interested in coding, travel and photography
+- 🌱 I’m currently learning full stack web development
+- 📫 How to reach me [GitHub](https://github.com/C-Sim)
