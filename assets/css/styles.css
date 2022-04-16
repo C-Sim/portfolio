@@ -1,7 +1,7 @@
 /* color palette */
 :root {
   --powder-blue: #b8d8d8ff;
-  --cadet-blue: #a0a0a0;
+  --cadet-blue: #c8c8c8;
   --deep-space-sparkle: #4f6367ff;
   --beige: #eef5dbff;
   --orange-red-crayola: #fe5f55ff;
@@ -120,7 +120,7 @@ body {
   height: auto;
   object-fit: scale-down;
   margin: 18px;
-  /* border: solid 4px var(--beige); */
+  border: solid 4px var(--deep-space-sparkle);
   box-shadow: 18px 18px 18px 18px #a0a0a0 inset;
 }
 
