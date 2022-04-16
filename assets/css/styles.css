@@ -31,21 +31,12 @@ body {
   z-index: 10; */
 }
 
-#imgCS {
-  width: 12%;
-  height: auto;
-  object-fit: cover;
-  margin: 8px;
-  border-style: double;
-  border-width: 4px;
-  border-color: var(--beige);
-}
-
 #name {
   color: var(--cadet-blue);
   font-size: 24px;
   position: relative;
   flex-grow: 2;
+  margin-left: 8px;
 }
 
 .nav-link-container {
@@ -79,14 +70,13 @@ body {
   background-image: url("../images/Kinkakuji.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  position: relative;
   /* margin-top: 18%; */
 }
 
 #herocaption {
   color: var(--beige);
   position: relative;
-  top: 95%;
+  top: 93%;
   right: 24px;
   text-align: right;
   font-size: 12px;
@@ -112,16 +102,33 @@ body {
   margin: 18px;
 }
 
+.aboutme-flex-container {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+}
+
 .portfolio-flex-container {
   display: flex;
   flex-direction: column;
+  width: 80%;
 }
 
 /* about me section*/
+#imgCS {
+  width: 15%;
+  height: auto;
+  object-fit: scale-down;
+  margin: 18px;
+  /* border: solid 4px var(--beige); */
+  box-shadow: 18px 18px 18px 18px #a0a0a0 inset;
+}
+
 .aboutme-content {
   color: var(--deep-space-sparkle);
   padding: 4px 8px;
-  width: 80%;
+  width: 100%;
+  font-size: 1.64vw;
 }
 
 .aboutme li {
@@ -142,7 +149,7 @@ body {
 .portfolio-main-container {
   margin: auto;
   width: 80%;
-  height: 10%;
+  height: auto;
   padding: 18px 0px;
 }
 
@@ -240,9 +247,9 @@ body {
   }
 
   /* hero image */
-  #hero {
+  /* #hero {
     margin-top: 48%;
-  }
+  } */
 
   /* section containers */
   .aboutme-container,
@@ -251,6 +258,12 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
+  }
+
+  .aboutme-flex-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   /* left-hand titles */
@@ -268,6 +281,10 @@ body {
   .contacts {
     font-size: 12px;
     padding: 0px;
+  }
+
+  .aboutme ul {
+    padding-left: 0px;
   }
 
   .contacts i {
