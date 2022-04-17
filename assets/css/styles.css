@@ -17,15 +17,14 @@ body {
   background-color: var(--cadet-blue);
 }
 
-/* sticky navbar */
-
-/* responsive & sticky navbar */
+/* responsive navbar*/
 .navbar-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   background-color: var(--deep-space-sparkle);
+  /* sticky navbar */
   /* position: fixed;
   top: 0px;
   z-index: 10; */
@@ -118,7 +117,7 @@ body {
 #imgCS {
   width: 15%;
   height: auto;
-  object-fit: scale-down;
+  object-fit: contain;
   margin: 18px;
   border: solid 4px var(--deep-space-sparkle);
   box-shadow: 18px 18px 18px 18px #a0a0a0 inset;
@@ -246,6 +245,7 @@ body {
     align-items: center;
   }
 
+  /* hero relative to sticky navbar */
   /* hero image */
   /* #hero {
     margin-top: 48%;

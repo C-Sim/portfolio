@@ -1,10 +1,6 @@
 # portfolio
 
-Personal portfolio of projects completed using a range of technologies
-
-## Description
-
-A portfolio of my projects using my skills across a range of front end and back end coding languages and tools.
+Personal portfolio of projects using my skills across a range of front end and back end coding languages and tools.
 
 [Deployed GitHub URL](https://c-sim.github.io/portfolio/)
 
@@ -22,17 +18,24 @@ A portfolio of my projects using my skills across a range of front end and back 
 
 ## Screenshots
 
-### Desktop Viewports
+<details>
+<summary>Desktop Viewport</summary>
 
 ![portfolio-desktop](./assets/images/portfolio_desktop.png)
 
-### Mobile Viewports
+</details>
+
+<details>
+<summary>Mobile Viewport</summary>
 
 ![portfolio-mobile](./assets/images/portfolio_mobile.png)
+
+</details>
+<br>
 
 ## About Me
 
 - 👋 Hi, I’m @C-Sim
 - 👀 I’m interested in coding, travel and photography
 - 🌱 I’m currently learning full stack web development
-- 📫 How to reach me [GitHub](https://github.com/C-Sim)
+- 📫 Reach me [GitHub](https://github.com/C-Sim)
