@@ -38,4 +38,3 @@ Personal portfolio of projects using my skills across a range of front end and b
 - 👋 Hi, I’m @C-Sim
 - 👀 I’m interested in coding, travel and photography
 - 🌱 I’m currently learning full stack web development
-- 📫 Reach me [GitHub](https://github.com/C-Sim)
