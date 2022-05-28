@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- icon links -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <title>Cherelle Simpson: Portfolio</title>
+  </head>
+
+  <body>
+    <!-- nav containing photo, name and 3 links to content -->
+    <header class="header">
+      <nav class="navbar-container">
+        <h1 id="name">Cherelle Simpson</h1>
+        <div class="nav-link-container">
+          <div class="nav-links">
+            <a class="nav-link" href="#aboutme-title">About Me</a>
+          </div>
+          <div class="nav-links">
+            <a class="nav-link" href="#portfolio-title">Portfolio</a>
+          </div>
+          <div class="nav-links">
+            <a class="nav-link" href="#contact-title">Contact</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- hero background image -->
+    <div id="hero" title="Kinkakuji. Kyoto, Japan">
+      <figcaption id="herocaption">
+        Photo taken on my travels in Kyoto, Japan<br />&copy; Cherelle Simpson
+      </figcaption>
+    </div>
+
+    <main>
+      <!-- first section containing 'about me' -->
+      <section class="aboutme-container">
+        <h2 class="section-title" id="aboutme-title">About Me</h2>
+        <div class="aboutme-flex-container">
+          <img
+            id="imgCS"
+            src="./assets/images/CS.jpg"
+            alt="Photo of Cherelle Simpson"
+          />
+          <div class="aboutme">
+            <div class="aboutme-content">
+              <p>
+                An established business professional with extensive experience
+                in management roles within large and reputable companies.
+                Naturally creative and an adept problem-solver with proficiency
+                in a wide range of coding languages, including:
+              </p>
+              <ul>
+                <li><strong>HTML</strong> including semantic refactoring</li>
+                <li>
+                  <strong>CSS</strong> including flexbox - media queries -
+                  variables
+                </li>
+                <li>
+                  <strong>JavaScript</strong> including loops - arrays -
+                  conditional statements
+                </li>
+              </ul>
+              <p>
+                You can find a copy of my CV
+                <a
+                  href="assets/files/cvCherelleSimpson.pdf"
+                  id="cv"
+                  target="_blank"
+                  >here</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- second section containing app image, title, tech and link -->
+      <section class="portfolio-container">
+        <h2 class="section-title" id="portfolio-title">Portfolio</h2>
+        <div class="portfolio-flex-container">
+          <!-- main image -->
+          <div class="portfolio-main-container">
+            <div>
+              <a
+                href="https://c-sim.github.io/semantic-html-refactor/"
+                target="_blank"
+                ><img
+                  class="portfolio-img1"
+                  src="./assets/images/semantic-html-refactor.png"
+                  alt="semantic-html-refactor screenshot"
+              /></a>
+            </div>
+
+            <div class="portfolio-name">
+              <h3>Semantic HTML Refactor</h3>
+              <p>HTML - CSS</p>
+              <div>
+                <a
+                  href="https://github.com/C-Sim/semantic-html-refactor"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-github" alt="GitHub"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- sub images -->
+          <div class="portfolio-sub-container">
+            <div class="project-card">
+              <div>
+                <a href="https://c-sim.github.io/portfolio/" target="_blank">
+                  <img
+                    class="portfolio-img2"
+                    src="./assets/images/Portfolio.png"
+                    alt="Portfolio screenshot"
+                /></a>
+              </div>
+              <div class="portfolio-name">
+                <h3>Personal Portfolio</h3>
+                <p>HTML - CSS</p>
+                <div>
+                  <a href="https://github.com/C-Sim/portfolio" target="_blank">
+                    <i class="fa-brands fa-github" alt="GitHub"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div>
+                <a
+                  href="https://c-sim.github.io/password_generator/"
+                  target="_blank"
+                  ><img
+                    class="portfolio-img2"
+                    src="./assets/images/password.jpg"
+                    alt="Entry lock image"
+                /></a>
+              </div>
+              <div class="portfolio-name">
+                <h3>Password Generator</h3>
+                <p>JavaScript</p>
+                <div>
+                  <a
+                    href="https://github.com/C-Sim/password_generator"
+                    target="_blank"
+                  >
+                    <i class="fa-brands fa-github" alt="GitHub"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div>
+                <a href="https://c-sim.github.io/code_quiz/" target="_blank"
+                  ><img
+                    class="portfolio-img2"
+                    src="./assets/images/code_quiz.jpg"
+                    alt="Code Quiz screenshot"
+                /></a>
+              </div>
+              <div class="portfolio-name">
+                <h3>Code Quiz</h3>
+                <p>JavaScript</p>
+                <div>
+                  <a href="https://github.com/C-Sim/code_quiz" target="_blank">
+                    <i class="fa-brands fa-github" alt="GitHub"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div>
+                <a
+                  href="https://c-sim.github.io/work_day_planner/"
+                  target="_blank"
+                >
+                  <img
+                    class="portfolio-img2"
+                    src="./assets/images/day_planner.jpg"
+                    alt="Day planner screenshot"
+                /></a>
+              </div>
+              <div class="portfolio-name">
+                <h3>Day Planner</h3>
+                <p>HTML - CSS</p>
+                <div>
+                  <a
+                    href="https://github.com/C-Sim/work_day_planner"
+                    target="_blank"
+                  >
+                    <i class="fa-brands fa-github" alt="GitHub"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div>
+                <a
+                  href="https://c-sim.github.io/weather-dashboard/"
+                  target="_blank"
+                  ><img
+                    class="portfolio-img2"
+                    src="./assets/images/weather.jpg"
+                    alt="Weather dashboard screenshot"
+                /></a>
+              </div>
+              <div class="portfolio-name">
+                <h3>Weather Dashboard</h3>
+                <p>JavaScript</p>
+                <div>
+                  <a
+                    href="https://github.com/C-Sim/weather-dashboard"
+                    target="_blank"
+                  >
+                    <i class="fa-brands fa-github" alt="GitHub"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div>
+                <a
+                  href="https://c-sim.github.io/virtual-holiday/index.html"
+                  target="_blank"
+                  ><img
+                    class="portfolio-img2"
+                    src="./assets/images/project.jpg"
+                    alt="Virtual Holiday"
+                /></a>
+              </div>
+              <div class="portfolio-name">
+                <h3>Virtual Holiday</h3>
+                <p>JavaScript</p>
+                <div>
+                  <a
+                    href="https://github.com/C-Sim/virtual-holiday"
+                    target="_blank"
+                  >
+                    <i class="fa-brands fa-github" alt="GitHub"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- third section containing icon links to contact details, GitHub and social media -->
+      <section class="contact-container">
+        <h2 class="section-title" id="contact-title">Contact Me</h2>
+        <div class="contacts">
+          <a href="mailto:cherelle.s@hotmail.com">
+            <i class="fa-solid fa-envelope" alt="eMail Me"></i>
+          </a>
+          <a href="tel:+447879461151"
+            ><i class="fa-solid fa-phone" alt="Call Me"></i>
+          </a>
+          <a href="https://github.com/C-Sim" target="_blank"
+            ><i class="fa-brands fa-github" alt="GitHub"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/cherelle-simpson"
+            target="_blank"
+          >
+            <i class="fa-brands fa-linkedin" alt="LinkedIn"></i>
+          </a>
+        </div>
+      </section>
+
+      <!-- footer -->
+      <footer class="footer">
+        <i class="fa-solid fa-crown"></i> Created by Cherelle Simpson &copy 2022
+      </footer>
+    </main>
+  </body>
+</html>
