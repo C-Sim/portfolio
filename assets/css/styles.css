@@ -1,0 +1,299 @@
+/* color palette */
+:root {
+  --powder-blue: #b8d8d8ff;
+  --cadet-blue: #c8c8c8;
+  --deep-space-sparkle: #4f6367ff;
+  --beige: #eef5dbff;
+  --orange-red-crayola: #fe5f55ff;
+}
+
+* {
+  font-family: "Work Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  background-color: var(--cadet-blue);
+}
+
+/* responsive navbar*/
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: var(--deep-space-sparkle);
+  /* sticky navbar */
+  /* position: fixed;
+  top: 0px;
+  z-index: 10; */
+}
+
+#name {
+  color: var(--cadet-blue);
+  font-size: 24px;
+  position: relative;
+  flex-grow: 2;
+  margin-left: 8px;
+}
+
+.nav-link-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  flex-wrap: wrap;
+}
+
+.nav-links {
+  margin: 8px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--beige);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.nav-link:hover,
+#cv:hover {
+  color: var(--orange-red-crayola);
+  cursor: pointer;
+}
+
+/* hero image */
+#hero {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../images/Kinkakuji.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  /* margin-top: 18%; */
+}
+
+#herocaption {
+  color: var(--beige);
+  position: relative;
+  top: 93%;
+  right: 24px;
+  text-align: right;
+  font-size: 12px;
+}
+
+/* left-hand section titles */
+.section-title {
+  color: var(--beige);
+  font-size: 18px;
+  font-weight: 400;
+  text-align: right;
+  padding: 4px 12px;
+  width: 18%;
+  border-right: 8px solid var(--deep-space-sparkle);
+}
+
+/* responsive section containers */
+.aboutme-container,
+.portfolio-container,
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  margin: 18px;
+}
+
+.aboutme-flex-container {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+}
+
+.portfolio-flex-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+/* about me section*/
+#imgCS {
+  width: 15%;
+  height: auto;
+  object-fit: contain;
+  margin: 18px;
+  border: solid 4px var(--deep-space-sparkle);
+  box-shadow: 18px 18px 18px 18px #a0a0a0 inset;
+}
+
+.aboutme-content {
+  color: var(--deep-space-sparkle);
+  padding: 4px 8px;
+  width: 100%;
+  font-size: 1.64vw;
+}
+
+.aboutme li {
+  list-style-type: none;
+}
+
+.aboutme li strong {
+  color: var(--orange-red-crayola);
+}
+
+#cv {
+  text-decoration: none;
+  color: var(--beige);
+}
+
+/* portfolio section*/
+/* main image */
+.portfolio-main-container {
+  margin: auto;
+  width: 80%;
+  height: auto;
+  padding: 18px 0px;
+}
+
+.portfolio-img1 {
+  width: 100%;
+  height: 150px;
+  padding: 0px;
+  object-fit: cover;
+  object-position: center top;
+  border: 8px solid var(--deep-space-sparkle);
+}
+
+/* titles */
+.portfolio-name {
+  background-color: var(--deep-space-sparkle);
+  color: var(--beige);
+  padding: 1px;
+  margin-top: -8px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.portfolio-name h3 {
+  margin: 4px;
+}
+
+.portfolio-name p {
+  color: var(--orange-red-crayola);
+  margin: 4px;
+}
+
+.portfolio-name i {
+  font-size: 18px;
+  color: var(--cadet-blue);
+}
+
+/* secondary images */
+.portfolio-sub-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  margin: 18px;
+}
+
+.portfolio-img2 {
+  width: 100%;
+  height: 150px;
+  padding: 0px;
+  margin-top: 8px;
+  margin-bottom: 0px;
+  object-fit: cover;
+  object-position: right top;
+  border: 8px solid var(--deep-space-sparkle);
+}
+
+.portfolio-img2:hover {
+  transform: scale(1.2, 1.2);
+}
+
+/* contact section */
+.contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 18px;
+  width: 80%;
+}
+
+.contacts a {
+  font-size: 32px;
+  margin: 0px auto;
+  color: var(--deep-space-sparkle);
+}
+
+/* footer */
+.footer {
+  background-color: var(--deep-space-sparkle);
+  color: var(--cadet-blue);
+  text-align: center;
+  padding: 8px;
+  width: 100%;
+}
+
+/* mobile viewport styles */
+/* navbar */
+@media screen and (max-width: 576px) {
+  .navbar-container,
+  .nav-link-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* hero relative to sticky navbar */
+  /* hero image */
+  /* #hero {
+    margin-top: 48%;
+  } */
+
+  /* section containers */
+  .aboutme-container,
+  .portfolio-container,
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .aboutme-flex-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* left-hand titles */
+  .section-title {
+    font-size: 15px;
+    width: 80%;
+    padding: 0px;
+    text-align: center;
+    border-right: none;
+  }
+
+  /* section content */
+  .aboutme-content,
+  .portfolio-main,
+  .contacts {
+    font-size: 12px;
+    padding: 0px;
+  }
+
+  .aboutme ul {
+    padding-left: 0px;
+  }
+
+  .contacts i {
+    margin: 12px;
+    position: relative;
+    left: 0%;
+  }
+
+  .footer {
+    font-size: 12px;
+  }
+}
