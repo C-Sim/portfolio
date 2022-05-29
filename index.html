@@ -30,13 +30,19 @@
         <h1 id="name">Cherelle Simpson</h1>
         <div class="nav-link-container">
           <div class="nav-links">
-            <a class="nav-link" href="#aboutme-title">About Me</a>
+            <a class="nav-link" id="aboutMeLink" href="#aboutme-title"
+              >About Me</a
+            >
           </div>
           <div class="nav-links">
-            <a class="nav-link" href="#portfolio-title">Portfolio</a>
+            <a class="nav-link" id="portfolioLink" href="#portfolio-title"
+              >Portfolio</a
+            >
           </div>
           <div class="nav-links">
-            <a class="nav-link" href="#contact-title">Contact</a>
+            <a class="nav-link" id="contactLink" href="#contact-title"
+              >Contact</a
+            >
           </div>
         </div>
       </nav>
@@ -51,7 +57,7 @@
 
     <main>
       <!-- first section containing 'about me' -->
-      <section class="aboutme-container">
+      <section class="flex-container" id="aboutme-container">
         <h2 class="section-title" id="aboutme-title">About Me</h2>
         <div class="aboutme-flex-container">
           <img
@@ -65,7 +71,7 @@
                 An established business professional with extensive experience
                 in management roles within large and reputable companies.
                 Naturally creative and an adept problem-solver with proficiency
-                in a wide range of coding languages, including:
+                in a wide range of coding languages and skills, including:
               </p>
               <button class="skill">HTML</button>
               <button class="skill">CSS</button>
@@ -74,13 +80,15 @@
               <button class="skill">Local Storage</button>
               <button class="skill">DOM</button>
               <button class="skill">jQuery</button>
-              <button class="skill">Moment</button>
+              <button class="skill">Moment.js</button>
               <button class="skill">Bootstrap</button>
               <button class="skill">JSON</button>
-              <button class="skill">Node</button>
+              <button class="skill">Node.js</button>
+              <button class="skill">Git</button>
+              <button class="skill">Terminal</button>
               <button class="skill">FontAwesome</button>
               <button class="skill">Google Fonts</button>
-              <button class="skill">Typewriter</button>
+              <button class="skill">Typewriter.js</button>
               <button class="skill">Bulma</button>
               <button class="skill">Semantic Refactoring</button>
               <button class="skill">Flexbox</button>
@@ -105,7 +113,7 @@
       </section>
 
       <!-- second section containing app image, title, tech and link -->
-      <section class="portfolio-container">
+      <section class="flex-container" id="portfolio-container">
         <h2 class="section-title" id="portfolio-title">Portfolio</h2>
         <div class="portfolio-flex-container">
           <!-- main image -->
@@ -285,7 +293,7 @@
       </section>
 
       <!-- third section containing icon links to contact details, GitHub and social media -->
-      <section class="contact-container">
+      <section class="flex-container" id="contact-container">
         <h2 class="section-title" id="contact-title">Contact Me</h2>
         <div class="contacts">
           <a href="mailto:cherelle.s@hotmail.com">
