@@ -36,6 +36,7 @@ body {
   position: relative;
   flex-grow: 2;
   margin-left: 8px;
+  font-weight: 300;
 }
 
 .nav-link-container {
@@ -79,6 +80,7 @@ body {
   right: 24px;
   text-align: right;
   font-size: 12px;
+  font-weight: 200;
 }
 
 /* left-hand section titles */
@@ -127,15 +129,17 @@ body {
   color: var(--deep-space-sparkle);
   padding: 4px 8px;
   width: 100%;
-  font-size: 1.64vw;
+  font-size: 1.5vw;
+  font-weight: 200;
 }
 
-.aboutme li {
-  list-style-type: none;
-}
-
-.aboutme li strong {
-  color: var(--orange-red-crayola);
+.skill {
+  background-color: var(--orange-red-crayola);
+  color: var(--cadet-blue);
+  border: none;
+  padding: 4px 8px;
+  margin: 4px;
+  border-radius: 18px;
 }
 
 #cv {
@@ -185,6 +189,10 @@ body {
   color: var(--cadet-blue);
 }
 
+.portfolio-name i:hover {
+  color: var(--orange-red-crayola);
+}
+
 /* secondary images */
 .portfolio-sub-container {
   display: flex;
@@ -195,8 +203,6 @@ body {
 
 .project-card {
   margin: 18px;
-  /* min-width: 25%;
-  max-width: 30%; */
 }
 
 .portfolio-img2 {
@@ -229,7 +235,10 @@ body {
   color: var(--deep-space-sparkle);
 }
 
-/* footer */
+.contacts a:hover {
+  color: var(--orange-red-crayola);
+}
+
 .footer {
   background-color: var(--deep-space-sparkle);
   color: var(--cadet-blue);
