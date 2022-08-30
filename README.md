@@ -21,14 +21,14 @@ Personal portfolio of projects using my skills across a range of front end and b
 <details>
 <summary>Desktop Viewport</summary>
 
-![portfolio-desktop](./assets/images/portfolio_desktop.png)
+![portfolio-desktop](./assets/images/portfolio-desktop.png)
 
 </details>
 
 <details>
 <summary>Mobile Viewport</summary>
 
-![portfolio-mobile](./assets/images/portfolio_mobile.png)
+![portfolio-mobile](./assets/images/portfolio-mobile.png)
 
 </details>
 <br>

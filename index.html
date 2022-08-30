@@ -24,19 +24,24 @@
   </head>
 
   <body>
-    <!-- nav containing photo, name and 3 links to content -->
     <header class="header">
       <nav class="navbar-container">
         <h1 id="name">Cherelle Simpson</h1>
         <div class="nav-link-container">
           <div class="nav-links">
-            <a class="nav-link" href="#aboutme-title">About Me</a>
+            <a class="nav-link" id="aboutMeLink" href="#aboutme-title"
+              >About Me</a
+            >
           </div>
           <div class="nav-links">
-            <a class="nav-link" href="#portfolio-title">Portfolio</a>
+            <a class="nav-link" id="portfolioLink" href="#portfolio-title"
+              >Portfolio</a
+            >
           </div>
           <div class="nav-links">
-            <a class="nav-link" href="#contact-title">Contact</a>
+            <a class="nav-link" id="contactLink" href="#contact-title"
+              >Contact</a
+            >
           </div>
         </div>
       </nav>
@@ -51,39 +56,60 @@
 
     <main>
       <!-- first section containing 'about me' -->
-      <section class="aboutme-container">
+      <section class="flex-container" id="aboutme-container">
         <h2 class="section-title" id="aboutme-title">About Me</h2>
         <div class="aboutme-flex-container">
-          <img
+          <!-- remove margin from 'aboutme-content' if restored -->
+          <!-- <img
             id="imgCS"
             src="./assets/images/CS.jpg"
             alt="Photo of Cherelle Simpson"
-          />
+          /> -->
           <div class="aboutme">
             <div class="aboutme-content">
               <p>
                 An established business professional with extensive experience
                 in management roles within large and reputable companies.
                 Naturally creative and an adept problem-solver with proficiency
-                in a wide range of coding languages, including:
+                in a wide range of coding languages and skills, including:
               </p>
-              <ul>
-                <li><strong>HTML</strong> including semantic refactoring</li>
-                <li>
-                  <strong>CSS</strong> including flexbox - media queries -
-                  variables
-                </li>
-                <li>
-                  <strong>JavaScript</strong> including loops - arrays -
-                  conditional statements
-                </li>
-              </ul>
+              <button class="skill">HTML</button>
+              <button class="skill">CSS</button>
+              <button class="skill">JavaScript</button>
+              <button class="skill">RESTful APIs</button>
+              <button class="skill">Local Storage</button>
+              <button class="skill">DOM</button>
+              <button class="skill">jQuery</button>
+              <button class="skill">Moment</button>
+              <button class="skill">Bootstrap</button>
+              <button class="skill">JSON</button>
+              <button class="skill">Node</button>
+              <button class="skill">OOP</button>
+              <button class="skill">Inquirer</button>
+              <button class="skill">TDD</button>
+              <button class="skill">Jest</button>
+              <button class="skill">Axios</button>
+              <button class="skill">Express</button>
+              <button class="skill">MySQL</button>
+              <button class="skill">Sequelize</button>
+              <button class="skill">ORM</button>
+              <button class="skill">Git</button>
+              <button class="skill">Heroku</button>
+              <button class="skill">Handlebars</button>
+              <button class="skill">dotenv</button>
+              <button class="skill">bcrypt</button>
+              <button class="skill">Nodemon</button>
+              <button class="skill">Postman</button>
+              <button class="skill">Terminal</button>
+              <button class="skill">FontAwesome</button>
+              <button class="skill">Google Fonts</button>
+              <button class="skill">Typewriter</button>
+              <button class="skill">Bulma</button>
+              <button class="skill">Semantic Refactoring</button>
+
               <p>
                 You can find a copy of my CV
-                <a
-                  href="assets/files/cvCherelleSimpson.pdf"
-                  id="cv"
-                  target="_blank"
+                <a href="https://resume.io/r/O2cItbDOx" id="cv" target="_blank"
                   >here</a
                 >
               </p>
@@ -93,28 +119,27 @@
       </section>
 
       <!-- second section containing app image, title, tech and link -->
-      <section class="portfolio-container">
+      <section class="flex-container" id="portfolio-container">
         <h2 class="section-title" id="portfolio-title">Portfolio</h2>
         <div class="portfolio-flex-container">
-          <!-- main image -->
           <div class="portfolio-main-container">
             <div>
-              <a
-                href="https://c-sim.github.io/semantic-html-refactor/"
-                target="_blank"
+              <a href="https://lit-atoll-12366.herokuapp.com/" target="_blank"
                 ><img
                   class="portfolio-img1"
-                  src="./assets/images/semantic-html-refactor.png"
-                  alt="semantic-html-refactor screenshot"
+                  src="./assets/images/mentor-me.png"
+                  alt="Mentor Me"
               /></a>
             </div>
-
             <div class="portfolio-name">
-              <h3>Semantic HTML Refactor</h3>
-              <p>HTML - CSS</p>
+              <h3>Mentor Me</h3>
+              <p>
+                Express-Session - Connect-Session-Sequelize - MySQL - Handlebars
+                - bcrypt - Nodemon - dotenv - Bootstrap - Heroku
+              </p>
               <div>
                 <a
-                  href="https://github.com/C-Sim/semantic-html-refactor"
+                  href="https://github.com/C-Sim/coding-mentoring"
                   target="_blank"
                 >
                   <i class="fa-brands fa-github" alt="GitHub"></i
@@ -125,6 +150,249 @@
 
           <!-- sub images -->
           <div class="portfolio-sub-container">
+            <div class="project-card">
+              <div>
+                <a
+                  href="https://drive.google.com/file/d/1ZsGv_8xPxgYXTafwbNoTRKxS7y16YVn6/view?usp=sharing"
+                  target="_blank"
+                  ><img
+                    class="portfolio-img2"
+                    src="assets/images/eComm-be.png"
+                    alt="eCommerce Back End screenshot"
+                /></a>
+              </div>
+              <div class="portfolio-name">
+                <h3>eCommerce Back End</h3>
+                <p>Sequelize - Express - MySQL - Postman</p>
+                <div>
+                  <a
+                    href="https://github.com/C-Sim/eComm-back-end"
+                    target="_blank"
+                  >
+                    <i class="fa-brands fa-github" alt="GitHub"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div>
+                <a
+                  href="https://drive.google.com/file/d/1eIAQ1se44oPhi-0MjxnWu9Bn-g4_2Jlm/view?usp=sharing"
+                  target="_blank"
+                  ><img
+                    class="portfolio-img2"
+                    src="assets/images/workforce-planner.png"
+                    alt="Workforce Planner screenshot"
+                /></a>
+              </div>
+              <div class="portfolio-name">
+                <h3>Workforce Planner</h3>
+                <p>Node - Inquirer - MySQL - Nodemon</p>
+                <div>
+                  <a
+                    href="https://github.com/C-Sim/workforce-planner"
+                    target="_blank"
+                  >
+                    <i class="fa-brands fa-github" alt="GitHub"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div>
+                <a
+                  href="https://guarded-tor-34423.herokuapp.com/"
+                  target="_blank"
+                  ><img
+                    class="portfolio-img2"
+                    src="assets/images/note-taker.png"
+                    alt="Note Taker screenshot"
+                /></a>
+              </div>
+              <div class="portfolio-name">
+                <h3>Note Taker</h3>
+                <p>JavaScript - Express - JSON - Heroku</p>
+                <div>
+                  <a href="https://github.com/C-Sim/note-taker" target="_blank">
+                    <i class="fa-brands fa-github" alt="GitHub"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div>
+                <a
+                  href="https://drive.google.com/file/d/1y5Z_9yz278-IN78ka1i0RD4YklBlRgDE/view"
+                  target="_blank"
+                  ><img
+                    class="portfolio-img2"
+                    src="assets/images/team-profile.png"
+                    alt="Team profile screenshot"
+                /></a>
+              </div>
+              <div class="portfolio-name">
+                <h3>Team Profile Generator</h3>
+                <p>JavaScript - Inquirer - Node - Jest</p>
+                <div>
+                  <a
+                    href="https://github.com/C-Sim/team-profile-generator"
+                    target="_blank"
+                  >
+                    <i class="fa-brands fa-github" alt="GitHub"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div>
+                <a
+                  href="https://drive.google.com/file/d/1wCfdWHnkdtJ8Yb8K1r3Zj_ot0dvN9S-P/view"
+                  target="_blank"
+                  ><img
+                    class="portfolio-img2"
+                    src="assets/images/rmg-sample.png"
+                    alt="ReadMe Generator screenshot"
+                /></a>
+              </div>
+              <div class="portfolio-name">
+                <h3>ReadMe Generator</h3>
+                <p>JavaScript - Inquirer - Node - fs</p>
+                <div>
+                  <a
+                    href="https://github.com/C-Sim/readme-generator"
+                    target="_blank"
+                  >
+                    <i class="fa-brands fa-github" alt="GitHub"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div>
+                <a
+                  href="https://c-sim.github.io/virtual-holiday/index.html"
+                  target="_blank"
+                  ><img
+                    class="portfolio-img2"
+                    src="./assets/images/virtual-holiday.png"
+                    alt="Virtual Holiday screenshot"
+                /></a>
+              </div>
+              <div class="portfolio-name">
+                <h3>Virtual Holiday</h3>
+                <p>jQuery - API - Video - Audio - Typewriter</p>
+                <div>
+                  <a
+                    href="https://github.com/C-Sim/virtual-holiday"
+                    target="_blank"
+                  >
+                    <i class="fa-brands fa-github" alt="GitHub"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div>
+                <a
+                  href="https://c-sim.github.io/weather-dashboard/"
+                  target="_blank"
+                  ><img
+                    class="portfolio-img2"
+                    src="./assets/images/weather-dashboard.png"
+                    alt="Weather dashboard screenshot"
+                /></a>
+              </div>
+              <div class="portfolio-name">
+                <h3>Weather Dashboard</h3>
+                <p>JavaScript - jQuery - APIs - JSON</p>
+                <div>
+                  <a
+                    href="https://github.com/C-Sim/weather-dashboard"
+                    target="_blank"
+                  >
+                    <i class="fa-brands fa-github" alt="GitHub"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div>
+                <a
+                  href="https://c-sim.github.io/work_day_planner/"
+                  target="_blank"
+                >
+                  <img
+                    class="portfolio-img2"
+                    src="./assets/images/day-planner.png"
+                    alt="Day planner screenshot"
+                /></a>
+              </div>
+              <div class="portfolio-name">
+                <h3>Day Planner</h3>
+                <p>JavaScript - Bootstrap - Moment.js</p>
+                <div>
+                  <a
+                    href="https://github.com/C-Sim/work_day_planner"
+                    target="_blank"
+                  >
+                    <i class="fa-brands fa-github" alt="GitHub"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div>
+                <a href="https://c-sim.github.io/code_quiz/" target="_blank"
+                  ><img
+                    class="portfolio-img2"
+                    src="./assets/images/code-quiz.png"
+                    alt="Code Quiz screenshot"
+                /></a>
+              </div>
+              <div class="portfolio-name">
+                <h3>Code Quiz</h3>
+                <p>JavaScript - DOM - Local Storage</p>
+                <div>
+                  <a href="https://github.com/C-Sim/code_quiz" target="_blank">
+                    <i class="fa-brands fa-github" alt="GitHub"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div>
+                <a
+                  href="https://c-sim.github.io/password_generator/"
+                  target="_blank"
+                  ><img
+                    class="portfolio-img2"
+                    src="./assets/images/password-generator.png"
+                    alt="Entry lock image"
+                /></a>
+              </div>
+              <div class="portfolio-name">
+                <h3>Password Generator</h3>
+                <p>JavaScript - HTML - CSS</p>
+                <div>
+                  <a
+                    href="https://github.com/C-Sim/password_generator"
+                    target="_blank"
+                  >
+                    <i class="fa-brands fa-github" alt="GitHub"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
             <div class="project-card">
               <div>
                 <a href="https://c-sim.github.io/portfolio/" target="_blank">
@@ -148,116 +416,21 @@
             <div class="project-card">
               <div>
                 <a
-                  href="https://c-sim.github.io/password_generator/"
+                  href="https://c-sim.github.io/semantic-html-refactor/"
                   target="_blank"
                   ><img
                     class="portfolio-img2"
-                    src="./assets/images/password.jpg"
-                    alt="Entry lock image"
+                    src="./assets/images/semantic-html-refactor.png"
+                    alt="semantic-html-refactor screenshot"
                 /></a>
               </div>
-              <div class="portfolio-name">
-                <h3>Password Generator</h3>
-                <p>JavaScript</p>
-                <div>
-                  <a
-                    href="https://github.com/C-Sim/password_generator"
-                    target="_blank"
-                  >
-                    <i class="fa-brands fa-github" alt="GitHub"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
 
-            <div class="project-card">
-              <div>
-                <a href="https://c-sim.github.io/code_quiz/" target="_blank"
-                  ><img
-                    class="portfolio-img2"
-                    src="./assets/images/code_quiz.jpg"
-                    alt="Code Quiz screenshot"
-                /></a>
-              </div>
               <div class="portfolio-name">
-                <h3>Code Quiz</h3>
-                <p>JavaScript</p>
-                <div>
-                  <a href="https://github.com/C-Sim/code_quiz" target="_blank">
-                    <i class="fa-brands fa-github" alt="GitHub"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="project-card">
-              <div>
-                <a
-                  href="https://c-sim.github.io/work_day_planner/"
-                  target="_blank"
-                >
-                  <img
-                    class="portfolio-img2"
-                    src="./assets/images/day_planner.jpg"
-                    alt="Day planner screenshot"
-                /></a>
-              </div>
-              <div class="portfolio-name">
-                <h3>Day Planner</h3>
+                <h3>Semantic HTML Refactor</h3>
                 <p>HTML - CSS</p>
                 <div>
                   <a
-                    href="https://github.com/C-Sim/work_day_planner"
-                    target="_blank"
-                  >
-                    <i class="fa-brands fa-github" alt="GitHub"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="project-card">
-              <div>
-                <a
-                  href="https://c-sim.github.io/weather-dashboard/"
-                  target="_blank"
-                  ><img
-                    class="portfolio-img2"
-                    src="./assets/images/weather.jpg"
-                    alt="Weather dashboard screenshot"
-                /></a>
-              </div>
-              <div class="portfolio-name">
-                <h3>Weather Dashboard</h3>
-                <p>JavaScript</p>
-                <div>
-                  <a
-                    href="https://github.com/C-Sim/weather-dashboard"
-                    target="_blank"
-                  >
-                    <i class="fa-brands fa-github" alt="GitHub"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="project-card">
-              <div>
-                <a
-                  href="https://c-sim.github.io/virtual-holiday/index.html"
-                  target="_blank"
-                  ><img
-                    class="portfolio-img2"
-                    src="./assets/images/project.jpg"
-                    alt="Virtual Holiday"
-                /></a>
-              </div>
-              <div class="portfolio-name">
-                <h3>Virtual Holiday</h3>
-                <p>JavaScript</p>
-                <div>
-                  <a
-                    href="https://github.com/C-Sim/virtual-holiday"
+                    href="https://github.com/C-Sim/semantic-html-refactor"
                     target="_blank"
                   >
                     <i class="fa-brands fa-github" alt="GitHub"></i
@@ -270,7 +443,7 @@
       </section>
 
       <!-- third section containing icon links to contact details, GitHub and social media -->
-      <section class="contact-container">
+      <section class="flex-container" id="contact-container">
         <h2 class="section-title" id="contact-title">Contact Me</h2>
         <div class="contacts">
           <a href="mailto:cherelle.s@hotmail.com">

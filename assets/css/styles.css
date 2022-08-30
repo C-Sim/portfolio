@@ -36,6 +36,7 @@ body {
   position: relative;
   flex-grow: 2;
   margin-left: 8px;
+  font-weight: 300;
 }
 
 .nav-link-container {
@@ -79,6 +80,7 @@ body {
   right: 24px;
   text-align: right;
   font-size: 12px;
+  font-weight: 200;
 }
 
 /* left-hand section titles */
@@ -93,9 +95,7 @@ body {
 }
 
 /* responsive section containers */
-.aboutme-container,
-.portfolio-container,
-.contact-container {
+.flex-container {
   display: flex;
   flex-direction: row;
   margin: 18px;
@@ -127,15 +127,18 @@ body {
   color: var(--deep-space-sparkle);
   padding: 4px 8px;
   width: 100%;
-  font-size: 1.64vw;
+  font-size: 1.5vw;
+  font-weight: 300;
+  margin-left: 2vw;
 }
 
-.aboutme li {
-  list-style-type: none;
-}
-
-.aboutme li strong {
-  color: var(--orange-red-crayola);
+.skill {
+  background-color: var(--orange-red-crayola);
+  color: var(--cadet-blue);
+  border: none;
+  padding: 4px 8px;
+  margin: 4px;
+  border-radius: 18px;
 }
 
 #cv {
@@ -154,7 +157,7 @@ body {
 
 .portfolio-img1 {
   width: 100%;
-  height: 150px;
+  height: 400px;
   padding: 0px;
   object-fit: cover;
   object-position: center top;
@@ -185,6 +188,10 @@ body {
   color: var(--cadet-blue);
 }
 
+.portfolio-name i:hover {
+  color: var(--orange-red-crayola);
+}
+
 /* secondary images */
 .portfolio-sub-container {
   display: flex;
@@ -198,13 +205,13 @@ body {
 }
 
 .portfolio-img2 {
-  width: 100%;
+  width: 250px;
   height: 150px;
   padding: 0px;
   margin-top: 8px;
   margin-bottom: 0px;
   object-fit: cover;
-  object-position: right top;
+  object-position: center top;
   border: 8px solid var(--deep-space-sparkle);
 }
 
@@ -227,7 +234,10 @@ body {
   color: var(--deep-space-sparkle);
 }
 
-/* footer */
+.contacts a:hover {
+  color: var(--orange-red-crayola);
+}
+
 .footer {
   background-color: var(--deep-space-sparkle);
   color: var(--cadet-blue);
@@ -252,9 +262,7 @@ body {
   } */
 
   /* section containers */
-  .aboutme-container,
-  .portfolio-container,
-  .contact-container {
+  .flex-container {
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -281,6 +289,7 @@ body {
   .contacts {
     font-size: 12px;
     padding: 0px;
+    margin: 0;
   }
 
   .aboutme ul {
